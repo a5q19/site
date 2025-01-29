@@ -1,0 +1,10 @@
+{
+  "name": "fuerza-store",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "concurrently \"npm run start --prefix server\" \"npm run start --prefix client\""
+  },
+  "dependencies": {
+    "concurrently": "^7.6.0"
+  }
+}
